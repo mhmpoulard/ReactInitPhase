@@ -81,6 +81,7 @@ class App extends Component {
     const { searchTerm } = this.state;
     this.fetchSearchTopstories(searchTerm);
   }
+  
 
 onSearchSubmit(event) {
   const { searchTerm }= this.state;
